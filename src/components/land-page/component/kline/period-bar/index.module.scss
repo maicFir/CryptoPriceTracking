@@ -1,0 +1,7 @@
+.app {
+  @apply flex items-center;
+  :global(.item) {
+    @apply px-[5px];
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,9 @@
+.app {
+  @apply flex justify-center items-center rounded-full overflow-hidden w-[30px] h-[30px] bg-[#111];
+  span {
+    @apply text-[#fff] text-[12px];
+  }
+  img {
+    @apply rounded-full;
+  }
+}

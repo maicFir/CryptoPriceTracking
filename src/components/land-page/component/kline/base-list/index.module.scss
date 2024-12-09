@@ -1,0 +1,8 @@
+.app {
+  @apply list-none flex flex-col absolute z-[99] top-0 p-0 m-0 whitespace-nowrap cursor-pointer bg-[#181a1c];
+  left: calc(100% + 1px);
+  box-shadow: 0 6px 12px #0000004d;
+  li {
+    @apply flex items-center;
+  }
+}

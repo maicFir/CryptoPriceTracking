@@ -1,0 +1,7 @@
+.app {
+    @apply py-[20px];
+    :global(.title) {
+        @apply text-red-500;  // 这里是全局的应用
+      }
+
+}
